@@ -1,0 +1,745 @@
+@media (min-width:320px) and (max-width:575px){
+ 
+    
+    
+    .header:before{
+        display: none
+    }
+    
+    
+     .header:after{
+        display: none
+    }
+    
+    
+    
+    
+    
+    #top-bar{
+        display: block;
+        position: fixed;top: 0;
+        z-index: 9999;
+        width: 100%;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    }
+    #top-bar .navb .menu ul{
+        padding: 20px 0px;
+        
+    }
+    #top-bar .navb .menu ul li{
+        display: block;
+        position: relative;
+        width: 100%;
+        transition: 0.6s;
+       
+      
+
+}
+    #top-bar .navb .logo{
+        margin: 10px;
+        
+    }
+    #top-bar .navb .logo img{
+        width: 60%
+    }
+    #top-bar .navb{
+        position: relative
+    }
+    #top-bar .navb .mobile-toggal{
+    position: absolute;
+        right: 30px;
+        top: 50%;
+        transform: translatey(-50%);
+            display:block;
+        width: 35px;
+        height: 35px;
+        border: 1px solid #da2b0a;
+        text-align: center;
+        line-height: 37px;
+    }
+    #top-bar .navb .mobile-toggal i{
+        cursor: pointer;
+        font-size: 24px;
+       
+        
+        
+    }
+    #top-bar .navb .menu ul{
+        margin-top: 40px;
+    }
+    #top-bar .navb .menu ul li a{
+        color: #ff8012;
+        display: block;
+        line-height: 55px;
+        padding: 0px 55px;
+        width: 100%;
+        transition: 0.5s;
+        font-family: 'Kanit', sans-serif;
+    
+    }
+    
+    #top-bar .navb .menu ul li:hover{
+        
+        background: #da2b0a; /* Old browsers */
+background: -moz-linear-gradient(top,  #da2b0a 0%, #e2781c 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #da2b0a 0%,#e2781c 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #da2b0a 0%,#e2781c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da2b0a', endColorstr='#e2781c',GradientType=0 ); 
+          
+    }
+    #top-bar .navb .menu ul li a:after{
+        content: '';
+        width: 5px;
+        height: 100%;
+        position: absolute;
+        left: 0px;
+        top: 50%;
+        transform: translatey(-51%);
+        background: #ebebeb;
+        display: none;
+        transition: 0.5s
+    }
+    #top-bar .navb .menu ul li:hover a{
+        
+        color: white;
+    }
+
+     #top-bar .navb .menu .hm{
+     position: absolute;
+         left: 20px;
+         top: 25%;
+         color: #e2781c;
+         font-size: 24px;
+         transition: 0.3s;
+         
+    }
+    
+    
+    #top-bar .navb .menu ul li:hover .hm{
+        color: white;
+        transform: none;
+        padding: 0px 5px;
+        
+    }
+    
+    #top-bar .navb .menu ul li a:hover:after{
+       display: block;
+        
+    }
+    
+    
+    
+  #top-bar .navb .menu{
+   width: 70%;
+   height: 100vh;
+   background: rgba(0, 0, 0, 0.9);
+  
+  font-size: 18px;
+  position: absolute;
+      left: 0px;
+      transition: 0.6s;
+  
+       
+}
+    #top-bar .navb .menu.active{
+        left: -410px;
+    }
+    #top-bar .navb .menu .cross{
+        font-size: 34px;
+        position: absolute;
+        bottom: 25%;
+        left: 50%;
+        transform: translatex(-50%);
+            color:white;
+        cursor: pointer;
+         transform: scale(1);
+        transition: 0.5s;
+    }
+    #top-bar .navb .menu .cross:hover{
+     transform: scale(1.2);
+     transform: rotate(180deg);
+    }
+  
+   .all .banner .box{
+        height: 400px;
+      
+    }
+.all .banner .box .custom-btn {
+  padding: 8px 15px;
+    
+
+    }
+
+    
+    .all .banner .mobile-bottom-nav{
+        z-index: 9999;
+        color:  #da2b0a; 
+    }
+     .all .banner .mobile-bottom-nav ul li i {
+        
+        color:  #da2b0a; 
+    }
+    
+    .all .banner .container{
+      width: 100%;
+    }
+    
+    .banner .box .text {
+    margin-top: 10px;
+    
+}
+.banner .box .text h1{
+    
+    font-size: 20px;
+    margin-bottom: 0px;
+    }
+    
+    .banner .box .text h3
+    {
+        font-size: 24px;
+        
+    }
+    
+    .banner .box .image {
+    width: 150px;
+    height: 150px;
+    margin-top: 30px
+    }
+    
+
+    
+    
+    
+    
+    
+    
+    
+    .all .items{
+        display: none;
+    }
+    .left{
+        
+    display: none;
+    }
+    .all .banner .mobile-bottom-nav{
+        visibility: visible
+    }
+  
+    
+    
+/*    //////////////////////*/
+    
+    
+    
+    #about-me .container{
+        width: 100%
+    }
+    
+    #about-me .right{
+        width: 100%
+    }
+    
+    #about-me .right .plate{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    
+    #about-me .right .plate .image{
+        transform: translateX(0px);
+        transform: translateY(-115px)
+    }
+    
+    #about-me .right .plate .details{
+    padding:  0px 20px;
+    margin-top: -90px;  
+        text-align: justify
+}
+    
+    #about-me .right .plate .details p{
+        
+    }
+    
+    #about-me .right .plate .custom-btn {
+        margin: 0 auto
+    }
+    #about-me .right .details{
+    display: flex;
+    flex-direction: column
+}
+    #about-me .right .details{
+        margin: 20px 0px
+    }
+    #about-me .right .details .one ul{
+
+    margin: 0px 20px 0px;
+    
+}
+    #about-me .right .project{
+        display: flex;
+        flex-wrap: wrap
+    }
+ 
+    #about-me .right .project .card{
+        margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    
+    }
+    
+    #about-me .right .card .image{
+   
+        }
+    
+    
+    
+/*    ///////////////////////////////
+             work
+    //////////////////////////*/
+    #work .bam{
+        margin-top: 70px;
+        width: 0px;
+    }
+    #work .right{
+        width:100%;
+    }
+    #work .right .our-service-sass .container{
+        width: 100%;
+    }
+    
+ 
+
+/*  ============================================================  */
+    
+    
+    #resume {
+    margin-top: 0px
+}
+    
+    #resume .right {
+    width: 100%;
+}
+    
+    #resume .right .header .hed h3{
+        font-size: 18px;
+        
+    }
+    
+    #resume .right .header{
+        margin-bottom: 0px;
+    }
+    
+    #resume .right .container{
+        width: 100%!important;
+    }
+    
+    #resume .right .header h3::before{
+        width: 0%;
+        
+    }
+    
+    #resume .right .header h3::after{
+        width: 0%;
+        
+    }
+    #resume .right .row .box {
+    width: 100%;
+        margin-top: 15px;
+    }
+    
+    #resume .right .row .box .details .icon i::after{
+        display: none;
+    }
+    
+    #resume .right .row .box .details .line1{
+        display: none;
+    }
+    
+    #resume .right .row .box .details .inst{
+        left: 10px;
+    }
+    
+    #resume .right .row .box .details .inst ul li h5{
+        font-size: 1rem;
+    }
+    
+    #resume .right .row .box .shape1{
+        left: 20px;
+        font-size: 14px;
+    }
+     #resume .right .row .box .shape2{
+        left: 20px;
+        font-size: 14px;
+    }
+     #resume .right .row .box .shape3{
+        left: 20px;
+        font-size: 14px;
+    }
+    #resume .right .row .box .details{
+        width: 100%;
+    }
+     #resume .right .row .box .details .inst .ist1{
+        margin-top: 25px;
+         margin-left: 5px;
+         
+    }
+    #resume .right .row .box .details .inst .ist2{
+        margin-top: 115px;
+         margin-left: 5px;
+    }
+     #resume .right .row .box .details .inst .ist3{
+        margin-top: 115px;
+          margin-left: 5px;
+    }
+     #resume .right .row .box .details .inst{
+       width: 300px;
+         margin-left: 10px;
+    }
+    #resume .right .row .box .details .inst h5{
+        margin-bottom: 0px;
+    }
+   
+    #resume .right .row .box .details .line2{
+        display: none;
+    }
+    #resume .right .row .box .details .line3{
+        display: none;
+    }
+    
+    #resume .right .row .box .details .inst ul li p{
+        font-size: 12px;
+        font-style: italic
+    }
+    
+    
+    
+
+    
+    #skill{
+        margin-top: 0px;
+    }
+    #skill .right {
+        width: 100%;
+    }
+    #skill .right .container{
+        width: 100%!important;
+    }
+    #skill .right .card{
+        width: 100%;
+        margin-top: 15px;
+    }
+  
+    
+    
+    
+    
+     #pro-skill{
+        margin-top: 0px;
+    }
+    #pro-skill .right {
+        width: 100%;
+    }
+     #pro-skill .right .container{
+        width: 100%!important;
+    }
+    #pro-skill .right .card{
+        width: 100%;
+        margin-top: 15px;
+        
+    }
+    #skill .right .row .card{
+        height: 400px;
+    }
+    
+    #skill .right .card .details .bar{
+        width: 110px;
+        height: 110px;
+        
+            
+    }
+    
+     #skill .right .card .details .bar h1{
+       font-size: 14px;
+    } 
+    #skill .right .card .details .bar:after{
+        height: 70%;
+        width: 70%;
+    }
+    
+    svg circle {
+        stroke-width: 30px;
+    }
+    
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*   ============================================= */
+    
+    
+    #port .right{
+        width: 100%;
+    }
+    #port .right .container{
+        width: 100%
+    }
+    
+    #port .right .projects .card{
+        width: 100%;
+    }
+    #port .right .projects .proj{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row
+    }
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #testi{
+       width: 100%;
+        margin-top: 0px;
+        
+    }
+    #testi .right {
+        width: 100%;
+    }
+    #testi .left {
+        width: 0%
+    }
+ #testi .right .container{
+        width: 100%;
+    }
+    #testi .right .plate .card{
+        margin: 30px 0px 70px 0px;
+        box-shadow: none;
+    }
+    #testi .right .plate .card .upper{
+        height: 80px;
+        bottom: -18%;
+        left: 18%;
+        padding: 10px 0px;
+        box-sizing: border-box
+    }
+    #testi .right .plate .card .upper .image {
+        width: 80px;
+        height: 80px;
+    }
+    #testi .right .plate .card .upper .name h5{
+        font-size: 18px;
+    }
+    #testi .right .plate .card .upper .name p{
+        font-size: 12px;
+    }
+    #testi .right .plate .card .upper .name .icon i{
+        font-size: 14px;
+        display: inline-block
+    }
+    #testi .right .plate .card .com p{
+        font-size: 13px;
+    } 
+    
+    
+/*    ==================================================*/
+    
+    
+    
+    
+    
+    
+    
+    #pricing{
+      height: 750px
+     
+    }
+    #pricing .right {
+        width: 100%;
+        height: 30px;
+        
+    }
+    
+    #pricing .right .container{
+        width: 100%;
+    }
+    #pricing .right .header .hed h3{
+        font-size: 18px;
+    }
+    #pricing .right .header{
+        margin-bottom: 0px;
+    }
+    
+    
+    
+     #pricing .right .header h3::before{
+        width: 0%;
+    }
+     #pricing .right .header h3::after{
+        width: 0%;
+    }
+    #pricing .right .slide {
+        
+    }
+    #pricing .right .slide .box{
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 100%;
+    }
+    #pricing .right .slide .box ul li{
+        margin-top: 10px;
+    }
+    #pricing .right .row{
+        margin-top: 30px;
+    }
+    
+    #pricing .right .slide .prev{
+        padding: 8px 12px;
+        bottom: 230px;
+        left: 0%;
+         font-size: 16px;
+    }
+     #pricing .right .slide .next{
+        padding: 8px 12px;
+        bottom: 230px;
+        right: 0%;
+          font-size: 16px;
+    }
+    
+/*    =====================================================*/
+   
+    
+    #clients {
+    margin-top: 0px;
+        height: 350px
+    
+    }
+    
+      #clients  .right {
+        width: 100%;
+        
+    }
+    
+      #clients .right .container{
+        width: 100%;
+    }
+    #clients .right .items .card{
+        width: 97%;
+        height: 70px;
+        box-shadow: none
+        
+    }
+    #clients  .right .items {
+        
+    }
+
+    
+     #clients  .right .items .prev{
+        padding: 8px 12px;
+        bottom: -20px;
+        left: 37%;
+          font-size: 16px;
+    }
+    #clients  .right .items .next{
+        padding: 8px 12px;
+        bottom: -20px;
+        right: 37%;
+        font-size: 16px;
+    }
+
+    
+    
+/*===================================================*/
+    
+    
+    
+     #contact {
+    margin-top: 0px;
+    
+    }
+    
+      #contact  .right {
+        width: 100%;
+        
+    }
+       #contact .right .container{
+        width: 100%;
+    }
+     #contact .right .header .hed h3{
+        font-size: 18px;
+    }
+     #contact .right .header{
+        margin-bottom: 0px;
+    }
+    
+    
+    
+    #contact  .right .items{
+        visibility: visible
+    }
+    
+      #contact  .right .header h3::before{
+        width: 0%;
+    }
+      #contact  .right .header h3::after{
+        width: 0%;
+    }
+    #contact  .right .row{
+        margin-top: 30px;
+    }
+    #contact  .right .box{
+        width: 100%;
+        margin-top: 10px
+    }
+    #contact  .right .items .form{
+        margin-bottom: 5px;
+    }
+    
+    
+    .banner .shape{
+        display: none
+    }
+    #copy{
+        margin-top: -90px;
+    }
+    #copy .right{
+        width: 100%
+    }
+    #copy .right .shape{
+        background: none;
+        color: #222
+    }
+    
+    
+    #contact .right .map{
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    
+    
+    
+    

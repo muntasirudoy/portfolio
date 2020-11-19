@@ -1,0 +1,610 @@
+@media (min-width:320px) and (max-width:575px){
+ 
+    #top-bar{
+        display: block;
+        position: fixed;top: 0;
+        z-index: 9999;
+        width: 100%;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    }
+    #top-bar .navb .menu ul{
+        padding: 20px 0px;
+        
+    }
+    #top-bar .navb .menu ul li{
+        display: block;
+        position: relative;
+        width: 100%;
+        transition: 0.6s;
+       
+      
+
+}
+    #top-bar .navb .logo{
+        margin: 10px;
+        
+    }
+    #top-bar .navb .logo img{
+        width: 60%
+    }
+    #top-bar .navb{
+        position: relative
+    }
+    #top-bar .navb .mobile-toggal{
+    position: absolute;
+        right: 30px;
+        top: 50%;
+        transform: translatey(-50%);
+            display:block;
+        width: 35px;
+        height: 35px;
+        border: 1px solid #da2b0a;
+        text-align: center;
+        line-height: 37px;
+    }
+    #top-bar .navb .mobile-toggal i{
+        cursor: pointer;
+        font-size: 24px;
+       
+        
+        
+    }
+    #top-bar .navb .menu ul{
+        margin-top: 40px;
+    }
+    #top-bar .navb .menu ul li a{
+        color: #ff8012;
+        display: block;
+        line-height: 55px;
+        padding: 0px 55px;
+        width: 100%;
+        transition: 0.5s;
+        font-family: 'Kanit', sans-serif;
+    
+    }
+    
+    #top-bar .navb .menu ul li:hover{
+        
+        background: #da2b0a; /* Old browsers */
+background: -moz-linear-gradient(top,  #da2b0a 0%, #e2781c 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #da2b0a 0%,#e2781c 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #da2b0a 0%,#e2781c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da2b0a', endColorstr='#e2781c',GradientType=0 ); 
+          
+    }
+    #top-bar .navb .menu ul li a:after{
+        content: '';
+        width: 5px;
+        height: 100%;
+        position: absolute;
+        left: 0px;
+        top: 50%;
+        transform: translatey(-51%);
+        background: #ebebeb;
+        display: none;
+        transition: 0.5s
+    }
+    #top-bar .navb .menu ul li:hover a{
+        
+        color: white;
+    }
+
+     #top-bar .navb .menu .hm{
+     position: absolute;
+         left: 20px;
+         top: 25%;
+         color: #e2781c;
+         font-size: 24px;
+         transition: 0.3s;
+         
+    }
+    
+    
+    #top-bar .navb .menu ul li:hover .hm{
+        color: white;
+        transform: none;
+        padding: 0px 5px;
+        
+    }
+    
+    #top-bar .navb .menu ul li a:hover:after{
+       display: block;
+        
+    }
+    
+    
+    
+  #top-bar .navb .menu{
+   width: 70%;
+   height: 100vh;
+   background: rgba(0, 0, 0, 0.9);
+  
+  font-size: 18px;
+  position: absolute;
+      left: 0px;
+      transition: 0.6s;
+  
+       
+}
+    #top-bar .navb .menu.active{
+        left: -410px;
+    }
+    #top-bar .navb .menu .cross{
+        font-size: 34px;
+        position: absolute;
+        bottom: 25%;
+        left: 50%;
+        transform: translatex(-50%);
+            color:white;
+        cursor: pointer;
+         transform: scale(1);
+        transition: 0.5s;
+    }
+    #top-bar .navb .menu .cross:hover{
+     transform: scale(1.2);
+     transform: rotate(180deg);
+    }
+  
+   .all .banner .box{
+        height: 400px;
+      
+    }
+.all .banner .box .custom-btn {
+  padding: 8px 15px;
+    
+
+    }
+
+    
+    .all .banner .mobile-bottom-nav{
+        z-index: 9999;
+        color:  #da2b0a; 
+    }
+     .all .banner .mobile-bottom-nav ul li i {
+        
+        color:  #da2b0a; 
+    }
+    
+    .all .banner .container{
+      width: 100%;
+    }
+    
+    .banner .box .text {
+    margin-top: 10px;
+    
+}
+.banner .box .text h1{
+    
+    font-size: 20px;
+    margin-bottom: 0px;
+    }
+    
+    .banner .box .text h3
+    {
+        font-size: 24px;
+        
+    }
+    
+    .banner .box .image {
+    width: 150px;
+    height: 150px;
+    margin-top: 30px
+    }
+    
+
+    
+    
+    
+    
+    
+    
+    
+    .all .items{
+        display: none;
+    }
+    .left{
+        
+    display: none;
+    }
+    .all .banner .mobile-bottom-nav{
+        visibility: visible
+    }
+    .items{
+        visibility: hidden
+    }
+    
+    
+/*    //////////////////////*/
+    
+    #about-me .container{
+        width: 100%
+    }
+    
+    #about-me .right{
+        width: 100%
+    }
+    
+     #about-me .right .clleft{
+       
+         display: none;
+    }
+    
+    #about-me .right .details{
+        width: 100%
+    }
+    
+      #about-me .right .details .one{
+          width: 100%;
+          display: block
+    }
+    
+    #about-me .right .card{
+        width: 170px;
+        margin: 0 auto
+        
+    } 
+    #about-me .right .project .col {
+      margin-top: 15px;
+    }
+    
+    
+/*    ///////////////////////////////
+             work
+    //////////////////////////*/
+    #work .bam{
+        margin-top: 70px;
+        width: 0px;
+    }
+    #work .right{
+        width:100%;
+    }
+    #work .right .our-service-sass .container{
+        width: 100%;
+    }
+    
+ 
+
+/*  ============================================================  */
+    
+    
+    #resume {
+    margin-top: 70px;
+}
+    
+    #resume .right {
+    width: 100%;
+}
+    
+    #resume .right .header .hed h3{
+        font-size: 18px;
+        
+    }
+    
+    #resume .right .header{
+        margin-bottom: 0px;
+    }
+    
+    #resume .right .container{
+        width: 100%!important;
+    }
+    
+    #resume .right .header h3::before{
+        width: 0%;
+        
+    }
+    
+    #resume .right .header h3::after{
+        width: 0%;
+        
+    }
+    #resume .right .row .box {
+    width: 100%;
+        margin-top: 15px;
+    }
+    
+    #resume .right .row .box .details .icon i::after{
+        display: none;
+    }
+    
+    #resume .right .row .box .details .line1{
+        display: none;
+    }
+    
+    #resume .right .row .box .details .inst{
+        left: 10px;
+    }
+    
+    #resume .right .row .box .details .inst ul li h5{
+        font-size: 1rem;
+    }
+    
+    #resume .right .row .box .shape1{
+        left: 20px;
+        font-size: 14px;
+    }
+     #resume .right .row .box .shape2{
+        left: 20px;
+        font-size: 14px;
+    }
+     #resume .right .row .box .shape3{
+        left: 20px;
+        font-size: 14px;
+    }
+    #resume .right .row .box .details{
+        width: 100%;
+    }
+     #resume .right .row .box .details .inst .ist1{
+        margin-top: 25px;
+         margin-left: 5px;
+         
+    }
+    #resume .right .row .box .details .inst .ist2{
+        margin-top: 115px;
+         margin-left: 5px;
+    }
+     #resume .right .row .box .details .inst .ist3{
+        margin-top: 115px;
+          margin-left: 5px;
+    }
+     #resume .right .row .box .details .inst{
+       width: 300px;
+         margin-left: 10px;
+    }
+    #resume .right .row .box .details .inst h5{
+        margin-bottom: 0px;
+    }
+   
+    #resume .right .row .box .details .line2{
+        display: none;
+    }
+    #resume .right .row .box .details .line3{
+        display: none;
+    }
+    
+    #resume .right .row .box .details .inst ul li p{
+        font-size: 12px;
+        font-style: italic
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #skill{
+        margin-top: 0px;
+    }
+    #skill .right {
+        width: 100%;
+    }
+    #skill .right .container{
+        width: 100%!important;
+    }
+    #skill .right .card{
+        width: 100%;
+        margin-top: 15px;
+    }
+    
+    
+     #pro-skill{
+        margin-top: 0px;
+    }
+    #pro-skill .right {
+        width: 100%;
+    }
+     #pro-skill .right .container{
+        width: 100%!important;
+    }
+    #pro-skill .right .card{
+        width: 100%;
+        margin-top: 15px;
+    }
+    
+    
+/*   ============================================= */
+    
+    
+    #testi{
+        margin-top: 70px;
+        display: none;
+    }
+
+    
+/*    ==================================================*/
+    
+    #pricing .right {
+        width: 100%;
+        
+    }
+    
+    #pricing .right .container{
+        width: 100%;
+    }
+    #pricing .right .header .hed h3{
+        font-size: 18px;
+    }
+    #pricing .right .header{
+        margin-bottom: 0px;
+    }
+    
+    
+    
+     #pricing .right .header h3::before{
+        width: 0%;
+    }
+     #pricing .right .header h3::after{
+        width: 0%;
+    }
+    #pricing .right .slide {
+        
+    }
+    #pricing .right .slide .box{
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 100%;
+    }
+    #pricing .right .slide .box ul li{
+        margin-top: 10px;
+    }
+    #pricing .right .row{
+        margin-top: 30px;
+    }
+    
+    #pricing .right .slide .prev{
+        padding: 8px 12px;
+        bottom: 230px;
+        left: 0%;
+         font-size: 16px;
+    }
+     #pricing .right .slide .next{
+        padding: 8px 12px;
+        bottom: 230px;
+        right: 0%;
+          font-size: 16px;
+    }
+    
+/*    =====================================================*/
+   
+    
+    #clients {
+    margin-top: 70px;
+    
+    }
+    
+      #clients  .right {
+        width: 100%;
+        
+    }
+    
+      #clients .right .container{
+        width: 100%;
+    }
+      #clients .right .header .hed h3{
+        font-size: 18px;
+    }
+     #clients .right .header{
+        margin-bottom: 0px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      #clients  .right .header h3::before{
+        width: 0%;
+    }
+      #clients  .right .header h3::after{
+        width: 0%;
+    }
+    
+     #clients  .right .items .prev{
+        padding: 8px 12px;
+        bottom: 30px;
+        left: -15px;
+          font-size: 16px;
+    }
+    #clients  .right .items .next{
+        padding: 8px 12px;
+        bottom: 30px;
+        right: -15px;
+        font-size: 16px;
+    }
+    
+    #clients  .right .items .card{
+        margin: 0 auto;
+        overflow: hidden;
+        height: 100px;
+        width: 100%;
+        
+    }
+    #clients  .right .items{
+    
+    }
+    
+    
+/*===================================================*/
+    
+    
+    
+     #contact {
+    margin-top: 70px;
+    
+    }
+    
+      #contact  .right {
+        width: 100%;
+        
+    }
+       #contact .right .container{
+        width: 100%;
+    }
+     #contact .right .header .hed h3{
+        font-size: 18px;
+    }
+     #contact .right .header{
+        margin-bottom: 0px;
+    }
+    
+    
+    
+    #contact  .right .items{
+        visibility: visible
+    }
+    
+      #contact  .right .header h3::before{
+        width: 0%;
+    }
+      #contact  .right .header h3::after{
+        width: 0%;
+    }
+    #contact  .right .row{
+        margin-top: 30px;
+    }
+    #contact  .right .box{
+        width: 100%;
+        margin-top: 10px
+    }
+    #contact  .right .items .form{
+        margin-bottom: 10px;
+    }
+    
+    
+    .banner .shape{
+        display: none
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    

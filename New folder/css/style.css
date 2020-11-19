@@ -1,0 +1,290 @@
+$gray: #eee;
+$white: #fff;
+$black: #333;
+$active: #E74C3C;
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color: gray;
+	font-family: 'Raleway';
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.icon {
+  	position: relative;
+  	width: 32px;
+  	height: 32px;
+  	display: block;
+  	fill: black;
+	margin-right: 20px;
+	transition: all .2s ease-in;
+}
+
+.icon.active {
+	fill: $active;
+}
+
+.icon.big {
+	width: 64px;
+	height: 64px;
+	fill: black;	
+}
+
+#wrapper {
+	width: 1140px;
+	height: 400px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;	
+	background-color: white;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	display: flex;
+  	align-items: center;
+  	justify-content: left;
+	overflow: hidden
+
+}
+
+#left-side {
+	height: 70%;
+	width: 25%;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	
+}
+		
+	#left-side ul li {
+			padding-top: 10px;
+			padding-bottom: 10px;
+			display: flex;
+			line-height: 34px;
+			color: rgba($black, .5);
+			font-weight: 500;
+			cursor: pointer;
+			transition: all 1s ease-out;
+}
+			#left-side ul li:hover {
+				color: red;
+				transition: all 1s ease-out;
+			}
+			
+		
+		
+		
+		#left-side ul li:active {
+			color: red;
+}
+
+		
+	
+
+
+#border {
+	height: 288px;
+	width: 1px;
+	background-color: black;
+}
+	#border #line.one {
+		width: 5px;
+		height: 54px;
+		background-color: red;
+		margin-left: -2px;
+		margin-top: 35px;
+		transition: all 1s ease-in-out;
+	}
+	
+	#border #line.two {
+		width: 5px;
+		height: 54px;
+		background-color:red;
+		margin-left: -2px;
+		margin-top: 89px;
+		transition: all 1s ease-in-out;
+	}
+	
+	#border #line.three {
+		width: 5px;
+		height: 54px;
+		background-color: red;
+		margin-left: -2px;
+		margin-top: 143px;
+		transition: all 1s ease-in-out;
+	}
+	
+	#border #line.four{
+		width: 5px;
+		height: 54px;
+		background-color:red;
+		margin-left: -2px;
+		margin-top: 197px;
+		transition: all 1s ease-in-out;
+	}
+
+
+#right-side {
+	height: 300px;
+	width: 75%;
+	overflow: hidden;
+}
+	#right-side #first {
+		position: absolute;
+		height: 300px;
+		width: 75%;
+		transition: all 1s ease-in-out;
+		margin-top: -380px;
+		opacity: 0;
+		display: flex;
+  		align-items: center;
+  		justify-content: center;
+		flex-direction: column;
+		transition: opacity 1s;
+}
+
+
+	#right-side #second {
+		position: absolute;
+		height: 300px;
+		width: 75%;
+		transition: all 1s ease-in-out;
+		margin-top: -380px;
+		opacity: 0;
+		display: flex;
+  		align-items: center;
+  		justify-content: center;
+		flex-direction: column;
+		transition: opacity 1s;
+
+}
+
+	#right-side #third {
+		position: absolute;
+		height: 300px;
+		width: 75%;
+		transition: all 1s ease-in-out;
+		margin-top: -380px;
+		opacity: 0;
+		display: flex;
+  		align-items: center;
+  		justify-content: center;
+		flex-direction: column;
+		transition: opacity 1s;
+
+}
+
+	#right-side #fourth {
+		position: absolute;
+		height: 300px;
+		width: 75%;
+		transition: all 1s ease-in-out;
+		margin-top: -380px;
+		opacity: 0;
+		display: flex;
+  		align-items: center;
+		flex-direction: column;
+		transition: opacity 1s;
+
+}
+
+
+
+		#right-side #first h1 {
+			font-weight: 800;
+			color: black;	
+		}
+		
+#right-side #second h1 {
+			font-weight: 800;
+			color: black;	
+		}
+
+
+#right-side #third h1 {
+			font-weight: 800;
+			color: black;	
+		}
+
+
+#right-side #fourth h1 {
+			font-weight: 800;
+			color: black;	
+		}
+
+
+
+
+
+
+
+
+#right-side #first, #second, #third, #fourth p {
+			color: black;
+			font-weight: 500;
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+	
+
+#right-side #first.active {
+		margin-top: 0px;
+		opacity: 1;
+		transition: all 1s ease-in-out;
+	}
+
+#right-side #second.active {
+		margin-top: 0px;
+		opacity: 1;
+		transition: all 1s ease-in-out;
+	}
+
+
+#right-side #third.active {
+		margin-top: 0px;
+		opacity: 1;
+		transition: all 1s ease-in-out;
+	}
+
+
+
+#right-side #fourth.active {
+		margin-top: 0px;
+		opacity: 1;
+		transition: all 1s ease-in-out;
+	}
+
+
+
+#left-side ul li img{
+    width: 100%
+}
+
+
+#right-side .box{
+    display: flex;
+}
+
+#right-side .box .card{
+    width: 180px;
+    height: 200px;
+    background: red;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
